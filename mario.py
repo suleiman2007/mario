@@ -29,7 +29,6 @@ class Jeu:
 
     def draw(self):
         pyxel.cls(0)
-
         pyxel.blt(self.perso.position[0], self.perso.position[1], 0, 0, 0, 8, 8)
 
 Jeu()
